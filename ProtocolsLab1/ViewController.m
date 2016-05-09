@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SPTDataProvider.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    SPTDataProvider *provider = [[SPTDataProvider alloc] init];
+    [provider fetchDataWithCompletion:^(NSArray *results, NSError *error) {
+        NSLog(@"%@", results);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

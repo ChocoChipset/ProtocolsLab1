@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C49C93471CE12269002F7B88 /* NSMutableArray+OrderUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C49C93461CE12269002F7B88 /* NSMutableArray+OrderUtils.m */; };
 		C4B787CF1CDB785F00A88E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787CE1CDB785F00A88E79 /* main.m */; };
 		C4B787D21CDB785F00A88E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787D11CDB785F00A88E79 /* AppDelegate.m */; };
 		C4B787D51CDB785F00A88E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787D41CDB785F00A88E79 /* ViewController.m */; };
@@ -22,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		C49C8FA21CDBA3D4002F7B88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C49C93451CE12269002F7B88 /* NSMutableArray+OrderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+OrderUtils.h"; sourceTree = "<group>"; };
+		C49C93461CE12269002F7B88 /* NSMutableArray+OrderUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+OrderUtils.m"; sourceTree = "<group>"; };
 		C4B787CA1CDB785F00A88E79 /* ProtocolsLab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsLab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B787CE1CDB785F00A88E79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4B787D01CDB785F00A88E79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				C4B787E41CDB79A000A88E79 /* Models */,
 				C4B787D01CDB785F00A88E79 /* AppDelegate.h */,
 				C4B787D11CDB785F00A88E79 /* AppDelegate.m */,
+				C49C93451CE12269002F7B88 /* NSMutableArray+OrderUtils.h */,
+				C49C93461CE12269002F7B88 /* NSMutableArray+OrderUtils.m */,
 				C4B787F11CDB81CC00A88E79 /* SPTDataProvider.h */,
 				C4B787F21CDB81CC00A88E79 /* SPTDataProvider.m */,
 				C4B787D31CDB785F00A88E79 /* ViewController.h */,
@@ -189,6 +194,7 @@
 				C4B787D51CDB785F00A88E79 /* ViewController.m in Sources */,
 				C4B787D21CDB785F00A88E79 /* AppDelegate.m in Sources */,
 				C4B787EA1CDB79C300A88E79 /* SPTConcert.m in Sources */,
+				C49C93471CE12269002F7B88 /* NSMutableArray+OrderUtils.m in Sources */,
 				C4B787CF1CDB785F00A88E79 /* main.m in Sources */,
 				C4B787ED1CDB79CF00A88E79 /* SPTAlbum.m in Sources */,
 				C4B787F01CDB79F400A88E79 /* SPTMusicVideo.m in Sources */,

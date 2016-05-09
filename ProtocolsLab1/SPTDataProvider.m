@@ -11,6 +11,7 @@
 #import "SPTConcert.h"
 #import "SPTAlbum.h"
 #import "SPTMusicVideo.h"
+#import "NSMutableArray+OrderUtils.h"
 
 
 @implementation SPTDataProvider
@@ -69,7 +70,7 @@
     musicVideoTwo.releaseDate = [NSDate date];
     [results addObject:musicVideoTwo];
     
-    // TODO: shuffle the results before returning them.
+    [results shuffle];
     
     dispatch_after(1.0, dispatch_get_main_queue(), ^{
         completion(results, nil);
