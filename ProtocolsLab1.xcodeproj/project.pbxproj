@@ -13,9 +13,15 @@
 		C4B787D81CDB785F00A88E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B787D61CDB785F00A88E79 /* Main.storyboard */; };
 		C4B787DA1CDB785F00A88E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B787D91CDB785F00A88E79 /* Assets.xcassets */; };
 		C4B787DD1CDB785F00A88E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B787DB1CDB785F00A88E79 /* LaunchScreen.storyboard */; };
+		C4B787E71CDB79B400A88E79 /* SPTArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787E61CDB79B400A88E79 /* SPTArtist.m */; };
+		C4B787EA1CDB79C300A88E79 /* SPTConcert.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787E91CDB79C300A88E79 /* SPTConcert.m */; };
+		C4B787ED1CDB79CF00A88E79 /* SPTAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787EC1CDB79CF00A88E79 /* SPTAlbum.m */; };
+		C4B787F01CDB79F400A88E79 /* SPTMusicVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787EF1CDB79F400A88E79 /* SPTMusicVideo.m */; };
+		C4B787F31CDB81CC00A88E79 /* SPTDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B787F21CDB81CC00A88E79 /* SPTDataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C49C8FA21CDBA3D4002F7B88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4B787CA1CDB785F00A88E79 /* ProtocolsLab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsLab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B787CE1CDB785F00A88E79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4B787D01CDB785F00A88E79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,16 @@
 		C4B787D91CDB785F00A88E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B787DC1CDB785F00A88E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B787DE1CDB785F00A88E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B787E51CDB79B400A88E79 /* SPTArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTArtist.h; sourceTree = "<group>"; };
+		C4B787E61CDB79B400A88E79 /* SPTArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTArtist.m; sourceTree = "<group>"; };
+		C4B787E81CDB79C300A88E79 /* SPTConcert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTConcert.h; sourceTree = "<group>"; };
+		C4B787E91CDB79C300A88E79 /* SPTConcert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTConcert.m; sourceTree = "<group>"; };
+		C4B787EB1CDB79CF00A88E79 /* SPTAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTAlbum.h; sourceTree = "<group>"; };
+		C4B787EC1CDB79CF00A88E79 /* SPTAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTAlbum.m; sourceTree = "<group>"; };
+		C4B787EE1CDB79F400A88E79 /* SPTMusicVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTMusicVideo.h; sourceTree = "<group>"; };
+		C4B787EF1CDB79F400A88E79 /* SPTMusicVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTMusicVideo.m; sourceTree = "<group>"; };
+		C4B787F11CDB81CC00A88E79 /* SPTDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTDataProvider.h; sourceTree = "<group>"; };
+		C4B787F21CDB81CC00A88E79 /* SPTDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTDataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,11 @@
 		C4B787CC1CDB785F00A88E79 /* ProtocolsLab1 */ = {
 			isa = PBXGroup;
 			children = (
+				C4B787E41CDB79A000A88E79 /* Models */,
 				C4B787D01CDB785F00A88E79 /* AppDelegate.h */,
 				C4B787D11CDB785F00A88E79 /* AppDelegate.m */,
+				C4B787F11CDB81CC00A88E79 /* SPTDataProvider.h */,
+				C4B787F21CDB81CC00A88E79 /* SPTDataProvider.m */,
 				C4B787D31CDB785F00A88E79 /* ViewController.h */,
 				C4B787D41CDB785F00A88E79 /* ViewController.m */,
 				C4B787D61CDB785F00A88E79 /* Main.storyboard */,
@@ -67,6 +86,7 @@
 				C4B787DB1CDB785F00A88E79 /* LaunchScreen.storyboard */,
 				C4B787DE1CDB785F00A88E79 /* Info.plist */,
 				C4B787CD1CDB785F00A88E79 /* Supporting Files */,
+				C49C8FA21CDBA3D4002F7B88 /* README.md */,
 			);
 			path = ProtocolsLab1;
 			sourceTree = "<group>";
@@ -77,6 +97,21 @@
 				C4B787CE1CDB785F00A88E79 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B787E41CDB79A000A88E79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4B787E51CDB79B400A88E79 /* SPTArtist.h */,
+				C4B787E61CDB79B400A88E79 /* SPTArtist.m */,
+				C4B787E81CDB79C300A88E79 /* SPTConcert.h */,
+				C4B787E91CDB79C300A88E79 /* SPTConcert.m */,
+				C4B787EB1CDB79CF00A88E79 /* SPTAlbum.h */,
+				C4B787EC1CDB79CF00A88E79 /* SPTAlbum.m */,
+				C4B787EE1CDB79F400A88E79 /* SPTMusicVideo.h */,
+				C4B787EF1CDB79F400A88E79 /* SPTMusicVideo.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B787F31CDB81CC00A88E79 /* SPTDataProvider.m in Sources */,
+				C4B787E71CDB79B400A88E79 /* SPTArtist.m in Sources */,
 				C4B787D51CDB785F00A88E79 /* ViewController.m in Sources */,
 				C4B787D21CDB785F00A88E79 /* AppDelegate.m in Sources */,
+				C4B787EA1CDB79C300A88E79 /* SPTConcert.m in Sources */,
 				C4B787CF1CDB785F00A88E79 /* main.m in Sources */,
+				C4B787ED1CDB79CF00A88E79 /* SPTAlbum.m in Sources */,
+				C4B787F01CDB79F400A88E79 /* SPTMusicVideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +342,7 @@
 				C4B787E31CDB785F00A88E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
